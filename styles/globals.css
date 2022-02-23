@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+.navbar{
+  z-index: 3;
+}
+.d{
+  border: 1px solid red;
+}
+.nav-item{
+  text-decoration: none !important;
+  color: red !important;
+}
+.comment{
+  font-size: 4rem !important;
+}
+
+.back-drop{
+  height: 75vh;
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/1080.webp') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
