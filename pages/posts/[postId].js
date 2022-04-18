@@ -1,4 +1,3 @@
-
 import axios from 'axios';
 import HTMLParser from 'html-react-parser';
 
@@ -6,19 +5,18 @@ import Comments from '../../components/comments';
 
 const URL = process.env.NEXT_PUBLIC_URL;
 const PostPage = ({post}) => {
-    
+    const imageURL = `${URL}/${post.image_URL}`
     return (
         <>
             <div className='container mt-5 pt-5'>
                 <h1>{post.title}</h1>
                 <div>
-                    aurthor: <span className='fw-bolder'>{post.aurthor}</span> 
+                    author: <span className='fw-bolder'>{post.author}</span> 
                 </div>
-                <img src='/1080.webp' className='img-fluid'/>
-                <div>{post.discription || HTMLParser(post.content) }</div>
+                <img src={imageURL} className='img-fluid'/>
+                <div>{HTMLParser(post.content) }</div>
                 <br/>
                 <Comments/>
-
             </div>
         </>
     )

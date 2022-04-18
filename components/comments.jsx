@@ -34,7 +34,7 @@ const Comments = () => {
             }):
                 <p>no comments yet!</p>
             }
-            <CommentForm/>
+            <CommentForm getComments={getComments}/>
         </>
     )
 }
