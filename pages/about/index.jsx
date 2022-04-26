@@ -42,7 +42,7 @@ const AboutPage = () => {
                         </div>
                     </section>
                 </div>
-                <img className="" src="/layer18.png" alt="two women with flower crowns" width='100%'/>
+                <img className="" src="/layer13.jpg" alt="two women with flower crowns" width='100%'/>
             </div>
         </>
     )
