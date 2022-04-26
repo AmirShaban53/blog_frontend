@@ -6,7 +6,7 @@ import Comments from '../../components/comments';
 
 const URL = process.env.NEXT_PUBLIC_URL;
 const PostPage = ({post}) => {
-    const imageURL = `${URL}/${post.image_URL}`
+    const imageURL =post.image_URL;
     return (
         <>
             <Head>
