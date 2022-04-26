@@ -30,7 +30,7 @@ const HomePage = () => {
                     <div className="col-md-7">
                         <p className="fs-2 fw-bolder">Fashion and traidition</p>
                         <p className="fs-3 fst-italic">
-                            Find interesting posts on fashion and trditional practices affects it amongest everyone. In one way or the other, fashion not only complements a person's life but as well my be their entire life-style. 
+                            Find interesting posts on fashion and trditional practices affects it amongest everyone. In one way or the other, fashion not only complements life but as well my be their entire life-style. 
                         </p>
                     </div>
                 </section>
