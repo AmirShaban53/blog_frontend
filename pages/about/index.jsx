@@ -22,7 +22,7 @@ const AboutPage = () => {
                     </section>
                     <section className="row my-5 py-3">
                         <div className="col-6 mx-auto">
-                            <img src="/layer 16.jpg" alt="a woman 'naomi' self portrait" className='img-fluid w-100 rounded-circle shadow' />
+                            <img src="/layer16.jpg" alt="a woman 'naomi' self portrait" className='img-fluid w-100 rounded-circle shadow' />
                         </div>
                     </section>
                     <section className="row">
@@ -42,7 +42,7 @@ const AboutPage = () => {
                         </div>
                     </section>
                 </div>
-                <img className="" src="/layer 18.png" alt="two women with flower crowns" width='100%'/>
+                <img className="" src="/layer18.png" alt="two women with flower crowns" width='100%'/>
             </div>
         </>
     )

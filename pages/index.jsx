@@ -26,7 +26,7 @@ const HomePage = () => {
                 </section>
                 <section className="row mb-5 pt-5">
                     <div className="col-md-4">
-                        <img src="/layer 2.jpg" alt="man in classy suit" className='img-fluid shadow' layout="fill"/>
+                        <img src="/layer02.jpg" alt="man in classy suit" className='img-fluid shadow' layout="fill"/>
                     </div>
                     <div className="col-md-7">
                         <p className="fs-2 fw-bolder">Fashion and traidition</p>
@@ -43,7 +43,7 @@ const HomePage = () => {
                         </p>
                     </div>
                     <div className="col-4">
-                        <img src="/layer 14.jpg" alt="profile of a woman with a yellow background" className='img-fluid shadow' layout="fill"/>
+                        <img src="/layer14.jpg" alt="profile of a woman with a yellow background" className='img-fluid shadow' layout="fill"/>
                     </div>
                 </section>
             </div>
@@ -55,19 +55,19 @@ const HomePage = () => {
                 <div className="row mb-3">
                     <div className="col-4">
                         <div className="card">
-                            <img src="/layer 3.jpg" alt="" className="card-img-top" layout="fill"/>
+                            <img src="/layer03.jpg" alt="" className="card-img-top" layout="fill"/>
                            
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="card">
-                            <img src="/layer 11.jpg" alt="" className="card-img-top" layout="fill"/>
+                            <img src="/layer11.jpg" alt="" className="card-img-top" layout="fill"/>
                           
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="card">
-                            <img src="/layer 7.jpg" alt="" className="card-img-top" layout="fill"/>
+                            <img src="/layer07.jpg" alt="" className="card-img-top" layout="fill"/>
                             
                         </div>
                     </div>
