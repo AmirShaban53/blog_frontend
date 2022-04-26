@@ -29,7 +29,7 @@ a {
 
 .back-drop{
   height: 75vh;
-  background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url('/layer04.jpg') no-repeat;
+  background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url('/img4.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }

@@ -26,7 +26,12 @@ const HomePage = () => {
                 </section>
                 <section className="row mb-5 pt-5">
                     <div className="col-md-4">
-                        <img src="/layer02.jpg" alt="man in classy suit" className='img-fluid shadow' layout="fill"/>
+                        <Image 
+                            src="/img2.jpg" 
+                            className="img-fluid shadow" 
+                            width='500' height='500' layout="responsive"
+                            alt="man in classy suit" 
+                        />
                     </div>
                     <div className="col-md-7">
                         <p className="fs-2 fw-bolder">Fashion and traidition</p>
@@ -43,7 +48,12 @@ const HomePage = () => {
                         </p>
                     </div>
                     <div className="col-4">
-                        <img src="/layer14.jpg" alt="profile of a woman with a yellow background" className='img-fluid shadow' layout="fill"/>
+                        <Image 
+                            src="/img8.jpg" 
+                            className="img-fluid shadow" 
+                            width='500' height='500' layout="responsive"
+                            alt="profile of a woman with a yellow background" 
+                        />
                     </div>
                 </section>
             </div>
@@ -55,20 +65,30 @@ const HomePage = () => {
                 <div className="row mb-3">
                     <div className="col-4">
                         <div className="card">
-                            <img src="/layer03.jpg" alt="" className="card-img-top w-100"/>
-                           
+                            <Image 
+                                src="/img3.jpg" 
+                                alt="" 
+                                className="card-img-top w-100" 
+                                width='500' height='500' layout="responsive"/>
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="card">
-                            <img src="/layer11.jpg" alt="" className="card-img-top w-100"/>
+                            <Image 
+                                src="/img5.jpg" 
+                                alt="" 
+                                className="card-img-top w-100" 
+                                width='500' height='500' layout="responsive"/>
                           
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="card">
-                            <img src="/layer07.jpg" alt="" className="card-img-top w-100"/>
-                            
+                            <Image 
+                                src="/img6.jpg" 
+                                alt="" className="card-img-top w-100" 
+                                width='500' height='500' layout="responsive"
+                            />
                         </div>
                     </div>
                 </div>
