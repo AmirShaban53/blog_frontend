@@ -22,7 +22,6 @@ a {
 }
 .nav-item{
   text-decoration: none !important;
-  color: red !important;
 }
 .comment{
   font-size: 4rem !important;
@@ -30,7 +29,21 @@ a {
 
 .back-drop{
   height: 75vh;
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/1080.webp') no-repeat;
+  background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)), url('/layer 4.jpg') no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.loader{
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

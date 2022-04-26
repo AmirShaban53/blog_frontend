@@ -1,53 +1,50 @@
+import Head from 'next/head';
 const AboutPage = () => {
     return (
-        <div className="container mt-5 pt-5">
-            <section className="row my-5">
-                <div className="col text-center">
-                    <div className="display-1 fw-bolder ">
-                        <p>ABOUT <br /> <span className='fw-light'>US.</span></p>
-                    </div>
-                </div>
-            </section>
-            <section className="row">
-                <div className="col fs-2">
-                    <p>Lorem ipsum dolor sit amet, <br /> consectetur adipisicing elit. Sed <br /> veritatis, reiciendis minima vitae magn.</p>
-                </div>
-            </section>
-            <section className="row my-5 py-3">
-                <div className="col-6 mx-auto">
-                    <img src="/400.png" alt="" className='img-fluid w-100 rounded-circle shadow' />
-                </div>
-            </section>
-            <section className="row">
-                <div className="col fs-2 text-end">
-                    <p>Lorem ipsum dolor sit amet, <br /> consectetur adipisicing elit. Sed <br /> veritatis, reiciendis minima vitae magn.</p>
-                </div>
-            </section>
-            <section className="row">
-                <div className="col">
-                    <form>
-                        <p className="display-3">say hello :)</p>
-                        <div className="card mb-5">
-                            <div className="card-body">
-                                <div className="mb-3">
-                                    <label  className="form-label">name :</label>
-                                    <input type="text" className="form-control" />
-                                </div>
-                                <div className="mb-3">
-                                    <label  className="form-label">email :</label>
-                                    <input type="text" className="form-control" />
-                                </div>
-                                <div className="mb-3">
-                                    <label  className="form-label">message :</label>
-                                    <textarea name="" id="" cols="20" rows="5" className="form-control"/>
-                                </div>
-                                <button type="submit" className="btn btn-outline-success">send</button>
+        <>
+            <Head>
+                <title>NAOMI | ABOUT</title>
+                <meta name="description" content="learn about Naomi Jessica herself, a photographer, writer and now a junior blogger. Read interesting stories about her and learn all sorts of new and fasinating things"/>
+            </Head>
+            <div className="container-fluid p-0 ">
+                <div className="container mt-5 pt-5">
+                    <section className="row my-5">
+                        <div className="col text-center">
+                            <div className="display-1 fw-bolder ">
+                                <p>ABOUT <br /> <span className='fw-light'>me.</span></p>
                             </div>
                         </div>
-                    </form>
+                    </section>
+                    <section className="row">
+                        <div className="col fs-3 text-center">
+                            <p>hey, am Naomi Jessica a photographer and junior writer. Am so in love with story telling and that is why I started this blog to share my stories, travels and expreinces</p>
+                        </div>
+                    </section>
+                    <section className="row my-5 py-3">
+                        <div className="col-6 mx-auto">
+                            <img src="/layer 16.jpg" alt="" className='img-fluid w-100 rounded-circle shadow' />
+                        </div>
+                    </section>
+                    <section className="row">
+                        <div className="col fs-3 text-center">
+                            <p>want to get the latest in fashion and photography, <br />
+                            then you are in the right place.</p> 
+                        </div>
+                    </section>
+                    <section className="row">
+                        <div className="col fs-4 mt-5">
+                            <p className="fw-bolder">contact</p>
+                            <div className="mb3">
+                                <p>tel:     +555 345 0745</p>
+                                <p>email:   naomijessica10@hotmail.com</p>
+                                <p>address: James Canray street, Kenya</p>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </section>
-        </div>
+                <img className="" src="/layer 18.png" alt="" srcset="" width='100%'/>
+            </div>
+        </>
     )
 }
 export default AboutPage;

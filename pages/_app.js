@@ -3,6 +3,7 @@ import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from '../components/navbar';
+import Loader from '../components/loader';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -10,11 +11,12 @@ function MyApp({ Component, pageProps }) {
   }, [])
   return (
     <>
+      <Loader/>
       <Navbar/>
       <Component {...pageProps} />
-      <footer className='p-5 bg-dark'>
+      {/* <footer className='p-5 bg-dark'>
           <div className='text-center text-light'>this is the footer and that</div>
-      </footer>
+      </footer> */}
     </>
   )
 }

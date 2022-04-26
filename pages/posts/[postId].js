@@ -1,6 +1,7 @@
 import axios from 'axios';
 import HTMLParser from 'html-react-parser';
-
+import classes from '../../styles/blogCard.module.css';
+import Head from 'next/head';
 import Comments from '../../components/comments';
 
 const URL = process.env.NEXT_PUBLIC_URL;
@@ -8,13 +9,20 @@ const PostPage = ({post}) => {
     const imageURL = `${URL}/${post.image_URL}`
     return (
         <>
+            <Head>
+                <title>NAOMI | {post.title}</title>
+                <meta name="description" content={post.description}/>
+            </Head>
             <div className='container mt-5 pt-5'>
                 <h1>{post.title}</h1>
                 <div>
                     author: <span className='fw-bolder'>{post.author}</span> 
                 </div>
-                <img src={imageURL} className='img-fluid'/>
-                <div>{HTMLParser(post.content) }</div>
+                <div className={classes.imageHeight}>
+                    <img src={imageURL} className='img-fluid '/>
+                </div>
+                <hr/>
+                <div className='my-5'>{HTMLParser(post.content) }</div>
                 <br/>
                 <Comments/>
             </div>

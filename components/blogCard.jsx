@@ -8,9 +8,11 @@ const BlogCard = ({id,title, description, author, image_URL, createdAt}) => {
     const imageURL = `${URL}/${image_URL}`
     
     return (
-        <div className='card mb-3'>
+        <div className='col-12 col-sm-10 col-md-8 card mx-2 mb-3 p-0 shadow'>
             <div className="position-relative">
-                <img src={imageURL} className="card-img-top" />
+                <div className= {classes.imageHeight}>
+                    <img src={imageURL} className={`card-img-top my-0`} />
+                </div>
                 <p className={`${classes.date} bg-info text-light`}>{date}</p>
 
             </div>

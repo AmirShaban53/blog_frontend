@@ -1,83 +1,81 @@
 import Hero from "../components/hero";
-import BlogCard from "../components/blogCard";
+import Link from "next/link";
+import Head from "next/head";
 
 const HomePage = () => {
     return (
         <>
+            <Head>
+                <title>NAOMI | HOME</title>
+                <meta name="description" content="Read blog posts on topics like fashion, photography, tradition and many others written but Naomi Jessica a professional photographer and up-coming junior writer" />
+            </Head>
             <Hero>
-                <div className='container d-flex align-items-center text-center text-light h-100'>
+                <div className='container d-flex align-items-center text-light h-100'>
                     <div>
-                        <h2>what a wonderful world!</h2>
-                        <p>this and that</p>
+                        <h2>Hey, am <span className="">Jessica Naomi</span></h2>
+                        <p className="fs-4 fw-lighter fst-italic">and welcome to my blog.</p>
                     </div>
                 </div>
             </Hero>
             <div className='container mt-5'>
                 <section className="row mb-5 pt-5">
                     <div className="col text-center">
-                        <p className="display-3  fw-bolder">Lorem ipsum dolor sit amet.</p>
-                        <p className="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, quae. <br /> Lorem ipsum dolor sit amet.</p>
+                        <p className="display-4  fw-bold">the Naomi blog.</p>
                     </div>
                 </section>
                 <section className="row mb-5 pt-5">
-                    <div className="col-6 ">
-                        <img src="/400.png" alt="" className='img-fluid shadow'/>
+                    <div className="col-md-4">
+                        <img src="/layer 2.jpg" alt="" className='img-fluid shadow'/>
                     </div>
-                    <div className="col-6">
-                        <p className="fs-2 fw-bolder">Lorem, ipsum dolor.</p>
-                        <p className="fs-3 fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo in voluptatum sint voluptates temporibus omnis beatae, error minima commodi quisquam ipsa quibusdam odio repellendus adipisci? Quod veritatis ad quo at?</p>
+                    <div className="col-md-7">
+                        <p className="fs-2 fw-bolder">Fashion and traidition</p>
+                        <p className="fs-3 fst-italic">
+                            Find interesting posts on fashion and trditional practices affects it amongest everyone. In one way or the other, fashion not only complements a person's life but as well my be their entire life-style. 
+                        </p>
                     </div>
                 </section>
                 <section className="row mb-5 pt-5">
-                    <div className="col-6">
-                        <p className="fs-2 fw-bolder">Lorem, ipsum dolor.</p>
-                        <p className="fs-3 fst-italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo in voluptatum sint voluptates temporibus omnis beatae, error minima commodi quisquam ipsa quibusdam odio repellendus adipisci? Quod veritatis ad quo at?</p>
+                    <div className="col-md-6">
+                        <p className="fs-2 fw-bolder mb-3 ">photography.</p>
+                        <p className="fs-3 fst-italic">
+                            The best part about photography is that no one tells you how to interpret it. You look at am image and get your own story out of it, deferent from the person right next to you.
+                        </p>
                     </div>
-                    <div className="col-6">
-                        <img src="/400.png" alt="" className='img-fluid shadow'/>
+                    <div className="col-4">
+                        <img src="/layer 14.jpg" alt="" className='img-fluid shadow'/>
                     </div>
                 </section>
             </div>
             <div className="container-fluid">
                 <section className="row back-drop mb-5">
-                    
                 </section>
             </div>
             <div className="container">
                 <div className="row mb-3">
                     <div className="col-4">
                         <div className="card">
-                            <img src="/400.png" alt="" className="card-img-top" />
-                            <div className="card-body">
-                                <p>Lorem ipsum dolor sit.</p>
-                                <a href="/">read more</a>
-                            </div>
+                            <img src="/layer 3.jpg" alt="" className="card-img-top" />
+                           
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="card">
-                            <img src="/400.png" alt="" className="card-img-top" />
-                            <div className="card-body">
-                                <p>Lorem ipsum dolor sit.</p>
-                                <a href="/">read more</a>
-                            </div>
+                            <img src="/layer 11.jpg" alt="" className="card-img-top" />
+                          
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="card">
-                            <img src="/400.png" alt="" className="card-img-top" />
-                            <div className="card-body">
-                                <p>Lorem ipsum dolor sit.</p>
-                                <a href="/">read more</a>
-                            </div>
+                            <img src="/layer 7.jpg" alt="" className="card-img-top" />
+                            
                         </div>
                     </div>
                 </div>
                 <section className="row my-5 pt-3 ">
                     <div className="col text-center">
-                        <p className='display-1 fw-bolder'>call to action</p>
-                        <p className='fs-3 text-muted fw-lighter fst-italic'>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                        <button className="btn btn-info w-25  fs-4">posts</button>
+                        <p className='display-1 fw-bolder'>looking for more!</p>
+                        <p className='fs-3 text-muted fw-lighter fst-italic'>have a look t your favourite content.</p>
+                        <Link href='/posts'><button className="btn btn-info w-25 fs-4"> posts</button></Link>
                     </div>
 
                 </section>

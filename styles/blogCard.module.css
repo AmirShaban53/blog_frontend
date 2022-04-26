@@ -5,3 +5,10 @@
     margin: 0;
     padding: 0.25rem;
 }
+.imageHeight{
+    max-height: 70vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
