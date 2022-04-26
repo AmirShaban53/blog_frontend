@@ -78,8 +78,8 @@ const HomePage = () => {
                                 src="/img5.jpg" 
                                 alt="" 
                                 className="card-img-top w-100" 
-                                width='500' height='500' layout="responsive"/>
-                          
+                                width='500' height='500' layout="responsive"
+                            />
                         </div>
                     </div>
                     <div className="col-4">
