@@ -17,7 +17,7 @@ const AboutPage = () => {
                     </section>
                     <section className="row">
                         <div className="col fs-3 text-center">
-                            <p>hey, am Naomi Jessica a photographer and junior writer. Am so in love with story telling and that is why I started this blog to share my stories, travels and expreinces</p>
+                            <p>hey, am Naomi Jessica a photographer and junior writer. Am so in love with story telling and that is why I started this blog to share my stories, travels and experiences</p>
                         </div>
                     </section>
                     <section className="row my-5 py-3">

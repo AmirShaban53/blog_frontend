@@ -34,9 +34,9 @@ const HomePage = () => {
                         />
                     </div>
                     <div className="col-md-7">
-                        <p className="fs-2 fw-bolder">Fashion and traidition</p>
+                        <p className="fs-2 fw-bolder">Fashion and traidition.</p>
                         <p className="fs-3 fst-italic">
-                            Find interesting posts on fashion and trditional practices affects it amongest everyone. In one way or the other, fashion not only complements life but as well my be their entire life-style. 
+                            Find interesting posts on fashion and trditional practices amongest people around the world. In one way or the other, fashion not only complements life but as well my be their entire life-style. 
                         </p>
                     </div>
                 </section>
@@ -44,7 +44,7 @@ const HomePage = () => {
                     <div className="col-md-6">
                         <p className="fs-2 fw-bolder mb-3 ">photography.</p>
                         <p className="fs-3 fst-italic">
-                            The best part about photography is that no one tells you how to interpret it. You look at am image and get your own story out of it, deferent from the person right next to you.
+                            The best part about photography is that no one tells you how to interpret it. You look at an image and get your own story out of it from your own experinces.
                         </p>
                     </div>
                     <div className="col-4">
@@ -95,7 +95,7 @@ const HomePage = () => {
                 <section className="row my-5 pt-3 ">
                     <div className="col text-center">
                         <p className='display-1 fw-bolder'>looking for more!</p>
-                        <p className='fs-3 text-muted fw-lighter fst-italic'>have a look t your favourite content.</p>
+                        <p className='fs-3 text-muted fw-lighter fst-italic'>have a look at your favourite content.</p>
                         <Link href='/posts'><button className="btn btn-info w-25 fs-4"> posts</button></Link>
                     </div>
 
