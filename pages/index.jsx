@@ -55,19 +55,19 @@ const HomePage = () => {
                 <div className="row mb-3">
                     <div className="col-4">
                         <div className="card">
-                            <img src="/layer03.jpg" alt="" className="card-img-top"/>
+                            <img src="/layer03.jpg" alt="" className="card-img-top w-100"/>
                            
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="card">
-                            <img src="/layer11.jpg" alt="" className="card-img-top"/>
+                            <img src="/layer11.jpg" alt="" className="card-img-top w-100"/>
                           
                         </div>
                     </div>
                     <div className="col-4">
                         <div className="card">
-                            <img src="/layer07.jpg" alt="" className="card-img-top"/>
+                            <img src="/layer07.jpg" alt="" className="card-img-top w-100"/>
                             
                         </div>
                     </div>
